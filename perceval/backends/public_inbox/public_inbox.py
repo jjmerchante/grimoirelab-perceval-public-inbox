@@ -125,9 +125,9 @@ class PublicInbox(Git):
 
         logger.info("Fetch process completed")
 
-    def _Git__fetch_newest_commits_from_repo(self, repo):
+    def _fetch_newest_commits_from_repo(self, repo):
         if not repo.has_alternates():
-            return super()._Git__fetch_newest_commits_from_repo(repo)
+            return super()._fetch_newest_commits_from_repo(repo)
 
         # The repository has alternate objects and new commits can't
         # be fetched directly from there, fetch the newest commits
