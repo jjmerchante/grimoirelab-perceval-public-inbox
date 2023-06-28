@@ -107,11 +107,11 @@ class PublicInbox(Git):
         commits = super().fetch_items(category, **kwargs)
 
         for commit in commits:
-            raw_msg = repo.file_contents(commit['commit'], 'm')
-            msg = email.message_from_string(raw_msg)
             try:
+                raw_msg = repo.file_contents(commit['commit'], 'm')
+                msg = email.message_from_string(raw_msg)
                 message = message_to_dict(msg)
-            except ParseError as e:
+            except (ParseError, UnicodeEncodeError) as e:
                 logger.warning(f"Error parsing commit {commit['commit']}; skipping")
                 continue
 

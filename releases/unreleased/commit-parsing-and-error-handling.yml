@@ -1,0 +1,9 @@
+---
+title: Commit parsing and error handling
+category: fixed
+author: Jose Javier Merchante <jjmerchante@bitergia.com>
+issue: null
+notes: |
+  An exception was raised when the commit was
+  incorrectly parsed. Improved commit parsing
+  and error handling.
