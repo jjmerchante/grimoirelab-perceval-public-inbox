@@ -467,18 +467,18 @@ files = [
 
 [[package]]
 name = "perceval"
-version = "0.22.0"
+version = "0.22.1"
 description = "Send Sir Perceval on a quest to fetch and gather data from software repositories."
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "perceval-0.22.0-py3-none-any.whl", hash = "sha256:c8785be6f429b7a9e2807521ac7d05e42a76a17627232e0f555a1b33d1bc73ad"},
-    {file = "perceval-0.22.0.tar.gz", hash = "sha256:1c848cb7efa4c89f9e46be945cd2788dd357b2e6bf64e49c768a13904667050c"},
+    {file = "perceval-0.22.1-py3-none-any.whl", hash = "sha256:dea6dd986faa61d1a376733ff782d9be31ea8e9b6f4cc597a922fdec6a667d6b"},
+    {file = "perceval-0.22.1.tar.gz", hash = "sha256:9a6e2111a9f508f112064d1f27bca68aed18c5f18175023e3e300acfa2a49027"},
 ]
 
 [package.dependencies]
 beautifulsoup4 = ">=4.3.2,<5.0.0"
-cryptography = ">=3.3.2,<40.0.0"
+cryptography = ">=3.3.2,<42.0.0"
 dulwich = ">=0.20.0,<0.21.0"
 feedparser = ">=6.0.8,<7.0.0"
 grimoirelab-toolkit = ">=0.3"
