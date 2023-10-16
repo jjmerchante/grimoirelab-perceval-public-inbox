@@ -41,7 +41,7 @@ classifiers = [
 "Bug Tracker" = "https://github.com/bitergia-analytics/grimoirelab-perceval-public-inbox/issues"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
 grimoirelab-toolkit = { version = ">=0.3", allow-prereleases = true}
 perceval = { version = ">=0.19", allow-prereleases = true }
