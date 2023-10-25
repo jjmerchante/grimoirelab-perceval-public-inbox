@@ -1,8 +1,0 @@
----
-title: Pin charset-normalized and cryptography dependencies
-category: dependency
-author: null
-issue: null
-notes: >
-  Pin charset-normalized and cryptography packages to be aligned with
-  Perceval version.

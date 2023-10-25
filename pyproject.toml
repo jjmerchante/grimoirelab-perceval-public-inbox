@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "perceval-public-inbox"
-version = "0.1.5-rc.2"
+version = "0.1.5"
 description = "Perceval backend for public-inbox."
 authors = [
     "GrimoireLab Developers"
