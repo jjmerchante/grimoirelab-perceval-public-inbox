@@ -2,19 +2,22 @@
 
 [[package]]
 name = "beautifulsoup4"
-version = "4.12.2"
+version = "4.12.3"
 description = "Screen-scraping library"
 optional = false
 python-versions = ">=3.6.0"
 files = [
-    {file = "beautifulsoup4-4.12.2-py3-none-any.whl", hash = "sha256:bd2520ca0d9d7d12694a53d44ac482d181b4ec1888909b035a3dbf40d0f57d4a"},
-    {file = "beautifulsoup4-4.12.2.tar.gz", hash = "sha256:492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da"},
+    {file = "beautifulsoup4-4.12.3-py3-none-any.whl", hash = "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"},
+    {file = "beautifulsoup4-4.12.3.tar.gz", hash = "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051"},
 ]
 
 [package.dependencies]
 soupsieve = ">1.2"
 
 [package.extras]
+cchardet = ["cchardet"]
+chardet = ["chardet"]
+charset-normalizer = ["charset-normalizer"]
 html5lib = ["html5lib"]
 lxml = ["lxml"]
 
@@ -414,13 +417,13 @@ pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
 name = "grimoirelab-toolkit"
-version = "0.4.1"
+version = "0.4.2"
 description = "Toolkit of common functions used across GrimoireLab"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "grimoirelab_toolkit-0.4.1-py3-none-any.whl", hash = "sha256:16e1d98ac2f3507e2c2cba6e8ecfc148bca73ab718aa2a1ff8410db368f70890"},
-    {file = "grimoirelab_toolkit-0.4.1.tar.gz", hash = "sha256:c3f74a63fc6028202a759bfd860ba280d638e27eb60b7c95b30384cbb1beb5fc"},
+    {file = "grimoirelab_toolkit-0.4.2-py3-none-any.whl", hash = "sha256:63749c42c7e6dd656acdf6ed32f19f966414388fbbb5e8ae521703b7ae68ca4b"},
+    {file = "grimoirelab_toolkit-0.4.2.tar.gz", hash = "sha256:ebd4832987d39bb588f79df0ac4b1acb32a218d588318d0f7749701dc4ffd9c0"},
 ]
 
 [package.dependencies]
@@ -450,13 +453,13 @@ files = [
 
 [[package]]
 name = "perceval"
-version = "0.23.4"
+version = "0.23.5"
 description = "Send Sir Perceval on a quest to fetch and gather data from software repositories."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "perceval-0.23.4-py3-none-any.whl", hash = "sha256:df3c4f16eeafcb7fb6232791d405399d42e1cef1777828504b6a5ddb15a578f5"},
-    {file = "perceval-0.23.4.tar.gz", hash = "sha256:752989339192f4863b9e5f326b0e18dbbbeecce973f307937c80dcb4d671a8d1"},
+    {file = "perceval-0.23.5-py3-none-any.whl", hash = "sha256:25357f42335f60d63db7c41a7b4c3572baa311e42b29c12230c46dcbe02fc0dc"},
+    {file = "perceval-0.23.5.tar.gz", hash = "sha256:39b5c30ff4b90536beedaf12d5ecbcca21d0847e73cc0d13014b6a4c1306c55e"},
 ]
 
 [package.dependencies]
