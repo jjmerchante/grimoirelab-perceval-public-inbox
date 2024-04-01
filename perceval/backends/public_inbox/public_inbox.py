@@ -193,6 +193,19 @@ class PublicInbox(Git):
         """
         return CATEGORY_MESSAGE
 
+    def metadata(self, item, filter_classified=False):
+        """Public Inbox metadata.
+
+        This method takes items, overriding `metadata` decorator.
+        Ignore Git implementation of metadata() and use the parent.
+
+        :param item: an item fetched by a backend
+        :param filter_classified: sets if classified fields were filtered
+        """
+        item = super(Git, self).metadata(item, filter_classified=filter_classified)
+
+        return item
+
     def _init_client(self, from_archive=False):
         pass
 
