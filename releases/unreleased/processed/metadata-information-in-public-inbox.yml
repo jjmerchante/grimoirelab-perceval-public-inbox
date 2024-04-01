@@ -1,9 +1,0 @@
----
-title: Metadata information in Public Inbox
-category: fixed
-author: Jose Javier Merchante <jjmerchante@bitergia.com>
-issue: null
-notes: >
-  Public inbox backend was using Git metadata, but in the last version, it
-  now includes information about the commit in the metadata. This change
-  avoid including this information in Public Inbox.
